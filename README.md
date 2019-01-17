@@ -79,16 +79,49 @@ please cut-and-paste the text from that email here._
 ## Problem 2
 - Scenario: Documents
 - Assumptions:
-  - explain_your_assumptions
+  - We have to assume that one document can be physical, digital, or both. We often think about the security of the 
+    digital system, but the security of the physical copies of these documents are as important as the digital version. 
+  - Also, we need to assume that the inlet and outlet channels of these documents in and out of our company are secure, 
+    otherwise we have no way to prevent leaking at the first place. There is nothing we can do if a document is stolen 
+    by an USPS employee (There is no way we can do hand delivery for all documents). 
+  - Also, we need to only worry about the security of our subsystem. It would be too much to think about if we consider 
+    all other subsystems that would cause correlated failures with us. It is a hard enough of a problem concerning 
+    induced independent failure in our system by the adversary. Also, if the adversaries were to compromise our security 
+    measures by inducing correlated failure through bringing down other dependent subsystems, it might be too costly for 
+    them to carry through. For example, breaking into the neighboring building's basement and dig a tunnel into our vault.
 - Assets:
-  - explanatory_paragraph
-  - explanatory_paragraph ...
+  Our assets will be the following. 
+  - We need to consider the confidentiality of our documents because it is the very nature of these documents. 
+  - Also, we need to consider the integrity of these documents because they cannot be doctored or stolen. 
+  - Furthermore, the availability of these documents is also our assets because we need to access them as needed due to
+    the very nature of legal service we provide. 
+  - In addition, the information of what documents we have and where we store (save) them (our document catalog and 
+    directory) is also our asset because simply knowing what we have or what we don’t have is very essential information,
+    especially for court cases. (meta-information)
 - Threats:
-  - explanatory_paragraph 
-  - explanatory_paragraph ...
+  There are several threats we are facing. 
+  - First of all, the adversaries will try to pose threats to our assets by hacking into our digital system. 
+    For example, they can read, write, and delete our documents if they have complete access to our digital system. 
+  - Secondly, the adversaries will also try to gain access to our building, server, and storage to threaten the security
+    of our assets. The simplest example is to break in our archive room and do anything they want with the documents 
+    inside. 
+  - In addition, the adversaries can also bribe, trick, or social-engineer our employees into giving them ways to pose threats to our 
+    assets. For example, they can pay our employees to copy, tamper, or destroy certain document that they knew that 
+    we have as they learned it from our compromised staffs. Or they can pretend to be our customer to trick our 
+    employees into giving them the documents. Better yet, they can send emails to trick employees into giving up their 
+    internal account credentials.
 - Countermeasures:
-  - explanatory_paragraph
-  - explanatory_paragraph ...
+  Our countermeasures need to address all those threats mentioned above. 
+  - First of all, having secured authentication systems for both the digital and physical documents is very important. 
+    This aims to prevent hacking into our digital physical archives. 
+  - We also need to have a security system like CCTV and a team of trained security personnel to prevent force entry 
+    and stealthy break in to our archive. 
+  - The most important countermeasure is to train our employees so that they are resistant to bribe, trickery, and 
+    social-engineering. Also, they need to sign non-disclosure agreement because it raise the cost to violate the 
+    confidentiality and integrity measures. 
+  - An extra note would be to choose our security and system providers carefully. Extensive background check is needed 
+    and make sure that there exists a fail-safe mechanism so that any failures will trigger a response to stop any kind
+    potential access that can cause those threats to our assets. 
 
 ## Problem 3
 - Scenario: Your choice (give a brief explanation)
