@@ -74,7 +74,7 @@ please cut-and-paste the text from that email here._
     checkpoints; therefore, we also need to do background check to the security personnel and train them not to take 
     bribe. We can also have a system for personnel to monitor each other with certain incentive so that it is harder and
     more costly for the adversaries to compromise security measures themselves. Also, we should closely monitor 
-    disgruntled employees.  
+    disgruntled employees. 
 
 ## Problem 2
 - Scenario: Documents
@@ -118,7 +118,7 @@ please cut-and-paste the text from that email here._
     and stealthy break in to our archive. 
   - The most important countermeasure is to train our employees so that they are resistant to bribe, trickery, and 
     social-engineering. Also, they need to sign non-disclosure agreement because it raise the cost to violate the 
-    confidentiality and integrity measures. 
+    confidentiality and integrity measures. This is the most cost effective way to counter these attacks.
   - An extra note would be to choose our security and system providers carefully. Extensive background check is needed 
     and make sure that there exists a fail-safe mechanism so that any failures will trigger a response to stop any kind
     potential access that can cause those threats to our assets. For example, having encryption to our documents so that 
@@ -149,7 +149,8 @@ please cut-and-paste the text from that email here._
     system. 
   - We also need a good delivery scheme and security team so that it would be hard for the adversaries to intercept our
     package. For example, we can try changing the delivery route at the last moment. Also having decoy couriers going 
-    different routes and armed convoy can make locating and attacking the actual courier harder. 
+    different routes and armed convoy can make locating and attacking the actual courier harder. It will be costly to us,
+    but it will be also costly for the adversaries to break. 
   - Furthermore, we can put security measures such as safe and lock to the package so that it would be hard for the 
     adversaries to see the package inside without destroying it. 
   - Also, we can have extra authentication methods, like 2-fac, to ensure the identity of the receiver.  
