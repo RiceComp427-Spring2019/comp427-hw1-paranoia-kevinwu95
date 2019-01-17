@@ -29,16 +29,49 @@ please cut-and-paste the text from that email here._
     service, gaining airport and passengers’ confidential information. 
   - Also, we also assume that there will be a large number of passengers going through security screening every day. 
   - Since the scenario is for security screening process, we have to assume that the adversary cannot bring in anything 
-    from entrances other than the checkpoints. 
+    from entrances other than the checkpoints to initialize the attack.
+  - Also, we can only have countermeasures at the checkpoints. The other airport subsystems' security measures are out 
+    of our hand. 
 - Assets:
-  - explanatory_paragraph
-  - explanatory_paragraph ...
+  The assets we are considering can be the following. 
+  - We need to consider the safety of the people within the airport and during the flight because the adversaries can 
+    try to harm the people involved due to their political statement or anti-social personalities. 
+  - The integrity and availability of services provided by the airport are also our assets because it is the primary 
+    function the airport. 
+  - Also, we need to consider the integrity of the physical properties as well because the adversaries can also try to 
+    damage the physical properties of the airport and airlines. 
+  - The confidential information of the airport personnel and passengers is also our assets because the adversary can 
+    also aim to acquire these for further exploits. 
 - Threats:
-  - explanatory_paragraph 
-  - explanatory_paragraph ...
+  The threats we need to consider can be the following. 
+  - The adversaries can launch attacks like vandalism targeting physical properties of the airports and airlines. 
+  - They can also launch attacks like poisoning to target personal safety in the airport and planes. 
+  - Also, the adversaries can launch forms of denial-of-service attacks like having bomb-like objects placed in multiple
+    places to cause disturbances and panics such that regular airport services can be delayed or denied. 
+  - Furthermore, the adversaries can also aim to acquire confidential information about the airport, the airlines, 
+    the personnel, and the passengers by hacking airport system for further exploits. 
+  - Also, the adversaries can also try to create a backdoor, either physical like an actual door or conceptual like a 
+    bribed employee, inside the airport so that further attacks can be carried through using it. 
+  - In addition, the adversaries can also try to bypass our security screening by providing forged identification or 
+    having compromised security personnel.  
+  - The worst of all, is to have adversaries capable of carrying out ad-hoc attacks on the spot using materials and 
+    instruments accessible within the airport and airplane. 
+  These are all threats that the checkpoint screening must consider.
 - Countermeasures:
-  - explanatory_paragraph
-  - explanatory_paragraph ...
+  In terms of countermeasures, screening is our primary method. There are several form of screening processes trying to 
+  address these threats. 
+  - First of all, we can use identification documents, like photo IDs, to identify known adversaries. This can partially
+    prevent threats, especially those that does not require bringing instruments through the checkpoints. For example, 
+    this should increase the chance to spot people who intent to bribe airport personnel to create a backdoor, to hack 
+    into the airport system to acquire confidential information, or to carry through any kind of ad-hoc attacks on the 
+    spots using materials within the airport or airplanes. Since we only care about the checkpoint, the security of other
+    subsystem in the airport is not our business, like having better WiFi security and airport electronic system security.
+  - The second screening process is to screen personal belongings that they try to bring into the airport. This can 
+    prevent attacks that requires special materials or instruments like weapons, explosives, and hazardous materials. 
+    This can be done using the current x-ray machine to scan any personal belongings and even one’s entire body in case 
+    the adversaries are trying to hide them. 
+  - Speaking of backdoor, the adversaries can also try to bride, or simply plant the security personnel at the 
+    checkpoints; therefore, we also need to do background check to the security personnel and train them not to take bribe. 
 
 ## Problem 2
 - Scenario: {Stadium|TSA|Documents|Grading|G20}
