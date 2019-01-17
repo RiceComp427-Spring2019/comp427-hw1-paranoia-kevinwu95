@@ -11,9 +11,9 @@ and will be rendered to beautiful HTML when you visit your GitHub repo.
 ## Student Information
 Please also edit _README.md_ and replace your instructor's name and NetID with your own:
 
-_Student name_: Dan WALLACH
+_Student name_: Kaiwen Wu
 
-_Student NetID_: dwallach
+_Student NetID_: kw34
 
 Your NetID is typically your initials and a numeric digit. That's
 what we need here.
@@ -22,9 +22,14 @@ _If you contacted us in advance and we approved a late submission,
 please cut-and-paste the text from that email here._
 
 ## Problem 1
-- Scenario: {Stadium|TSA|Documents|Grading|G20}
+- Scenario: TSA
 - Assumptions:
-  - explain_your_assumptions
+  In this scenario, we are making the assumption that the attackers’ goals (intents) can be 
+  - causing damage to property integrity and personal safety in the airport on during flight, disrupting regular airport
+    service, gaining airport and passengers’ confidential information. 
+  - Also, we also assume that there will be a large number of passengers going through security screening every day. 
+  - Since the scenario is for security screening process, we have to assume that the adversary cannot bring in anything 
+    from entrances other than the checkpoints. 
 - Assets:
   - explanatory_paragraph
   - explanatory_paragraph ...
