@@ -125,16 +125,32 @@ please cut-and-paste the text from that email here._
     the adversary will not be able to read, or tamper without detection even they have access. 
 
 ## Problem 3
-- Scenario: Your choice (give a brief explanation)
+- Scenario: I am the transportation coordinator for an important package delivery. 
 - Assumptions:
-  - explain_your_assumptions
+  - In this case we are assuming that the package confidentiality and integrity are important. 
+  - Also, we want to ensure the package is received correctly and delivered to the right place.
 - Assets:
-  - explanatory_paragraph
-  - explanatory_paragraph ...
+  Our assets are the following. 
+  - The package we pick up is correct. And we also need to deliver to the right person/place. 
+  - Nobody can know the content of the package. 
+  - The package cannot be tampered or lost in transit. 
+  - The transition has to follow the strict cautionary instructions, like temperature requirement, provided by the client.
 - Threats:
-  - explanatory_paragraph 
-  - explanatory_paragraph ...
+  - The adversaries can try to gain access to our service system (both digital and personnel) to learn about the package
+   and our delivery scheme. They can even use this attack to modify the delivery so that the package is deliver to the 
+   adversary instead. 
+  - They can also try to forcefully intercept the package in transit. 
+  - In addition, the adversaries can also pretend to be the receiver using forged authentication to get the package. 
+  - Also, the adversaries can also bribe/plant delivery personnel to do anything they want with the package during transit.
 - Countermeasures:
-  - explanatory_paragraph
-  - explanatory_paragraph ...
+  Our countermeasures will be the following. 
+  - We need to create an access control scheme to our system so that the most sensitive information about the delivery 
+    can only be accessed by a few crucial employees. This can reduce the risk of the adversaries gaining access to our 
+    system. 
+  - We also need a good delivery scheme and security team so that it would be hard for the adversaries to intercept our
+    package. For example, we can try changing the delivery route at the last moment. Also having decoy couriers going 
+    different routes and armed convoy can make locating and attacking the actual courier harder. 
+  - Furthermore, we can put security measures such as safe and lock to the package so that it would be hard for the 
+    adversaries to see the package inside without destroying it. 
+  - Also, we can have extra authentication methods, like 2-fac, to ensure the identity of the receiver.  
 
