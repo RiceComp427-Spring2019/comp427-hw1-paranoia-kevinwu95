@@ -121,7 +121,8 @@ please cut-and-paste the text from that email here._
     confidentiality and integrity measures. 
   - An extra note would be to choose our security and system providers carefully. Extensive background check is needed 
     and make sure that there exists a fail-safe mechanism so that any failures will trigger a response to stop any kind
-    potential access that can cause those threats to our assets. 
+    potential access that can cause those threats to our assets. For example, having encryption to our documents so that 
+    the adversary will not be able to read, or tamper without detection even they have access. 
 
 ## Problem 3
 - Scenario: Your choice (give a brief explanation)
