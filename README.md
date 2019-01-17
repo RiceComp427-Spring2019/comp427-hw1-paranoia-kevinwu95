@@ -71,10 +71,13 @@ please cut-and-paste the text from that email here._
     This can be done using the current x-ray machine to scan any personal belongings and even one’s entire body in case 
     the adversaries are trying to hide them. 
   - Speaking of backdoor, the adversaries can also try to bride, or simply plant the security personnel at the 
-    checkpoints; therefore, we also need to do background check to the security personnel and train them not to take bribe. 
+    checkpoints; therefore, we also need to do background check to the security personnel and train them not to take 
+    bribe. We can also have a system for personnel to monitor each other with certain incentive so that it is harder and
+    more costly for the adversaries to compromise security measures themselves. Also, we should closely monitor 
+    disgruntled employees.  
 
 ## Problem 2
-- Scenario: {Stadium|TSA|Documents|Grading|G20}
+- Scenario: Documents
 - Assumptions:
   - explain_your_assumptions
 - Assets:
